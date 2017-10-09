@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_material_light"
+    android:icon="@mipmap/c">
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@id/btn_login"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="userLogin"
+        android:layout_x="64dp"
+        android:layout_y="227dp" />
+
+    <Button
+        android:id="@id/btn_reg"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:text="Register Now"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:onClick="register"
+        android:layout_x="82dp"
+        android:layout_y="285dp" />
+
+
+
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:inputType="textEmailAddress"
+        android:id="@+id/user_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_x="38dp"
+        android:layout_y="95dp" />
+    <EditText
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/user_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:layout_x="36dp"
+        android:layout_y="171dp" />
+
+</AbsoluteLayout>

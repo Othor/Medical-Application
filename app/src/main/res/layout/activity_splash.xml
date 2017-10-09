@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:icon="@mipmap/c">
+
+    <ImageView
+        android:layout_width="438dp"
+        android:layout_height="674dp"
+        android:src="@drawable/splash1"
+        android:id="@+id/iv"
+        android:layout_x="-14dp"
+        android:layout_y="-52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medical Application"
+        android:id="@+id/textView12"
+        android:layout_x="74dp"
+        android:layout_y="246dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DEMO"
+        android:id="@+id/textView13"
+        android:layout_x="145dp"
+        android:layout_y="282dp"
+        android:textColor="#032121" />
+
+</AbsoluteLayout>

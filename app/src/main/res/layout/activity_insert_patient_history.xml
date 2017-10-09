@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:icon="@mipmap/c">
+
+    <requestFocus />
+
+    <AbsoluteLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#15668f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medical History Board"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:layout_x="89dp"
+            android:layout_y="30dp"
+            android:textColor="#ffffff"
+            android:autoText="false" />
+
+
+    </AbsoluteLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </TableRow>
+
+
+    <EditText
+            android:id="@+id/etDiagnosis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Diagnosis "
+            android:layout_column="0"
+            android:layout_span="13"
+      android:theme="@style/AppTheme" />
+
+    <EditText
+        android:id="@+id/etTemp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Vital Signs"
+        android:inputType="phone"
+        android:layout_span="2"
+        android:theme="@style/AppTheme" />
+
+    <EditText
+        android:id="@+id/etAllergy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Allergy"
+        android:inputType="textEmailAddress"
+        android:layout_span="2"
+        android:theme="@style/AppTheme" />
+
+    <EditText
+        android:id="@+id/etRemark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Remark"
+        android:inputType="textEmailAddress"
+        android:layout_span="2"
+        android:theme="@style/AppTheme" />
+
+    <Button
+        android:layout_marginTop="18dp"
+        android:id="@+id/btnNew"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:text="New History"
+        android:onClick="newRecord" />
+
+    <Button
+            android:layout_marginTop="0dp"
+            android:id="@+id/btnAppend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="appenedHistory"
+            android:text="Append History" />
+
+
+</TableLayout>
