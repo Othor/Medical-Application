@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Agenagn_9-16-2016\\AutoSearch-Test1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "C:\\Agenagn_9-16-2016\\AutoSearch-Test1\\app\\src\\main\\res\\menu\\main_menu.xml"
+        "merged": "/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/pc/AndroidStudioProjects/Medical-Application/app/src/main/res/menu/main_menu.xml"
     },
     {
-        "merged": "F:\\Android_work\\AutoSearch-PriMed\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "F:\\Android_work\\AutoSearch-PriMed\\app\\src\\main\\res\\menu\\main_menu.xml"
+        "merged": "/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/pc/AndroidStudioProjects/Medical-Application/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/res/merged/debug/menu/main_drawer.xml",
+        "source": "/Users/pc/AndroidStudioProjects/Medical-Application/app/src/main/res/menu/main_drawer.xml"
     }
 ]

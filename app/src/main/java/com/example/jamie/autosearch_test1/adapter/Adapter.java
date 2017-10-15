@@ -2,12 +2,15 @@ package com.example.jamie.autosearch_test1.adapter;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.jamie.autosearch_test1.PatientHistory;
 import com.example.jamie.autosearch_test1.R;
 import com.example.jamie.autosearch_test1.model.DataModel;
 
@@ -59,6 +62,14 @@ public class Adapter extends BaseAdapter {
 
         TextView txt_email = (TextView) convertView.findViewById(R.id.txt_email);
         txt_email.setText(item.get(position).getEmail());
+
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.imageView5);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                activity.startActivity(new Intent(activity, PatientHistory.class));
+            }
+        });
 
         return convertView;
     }

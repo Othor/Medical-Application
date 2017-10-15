@@ -1,0 +1,96 @@
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:theme="@style/ThinnerFont"
+    app:umanoPanelHeight="@dimen/action_bar_height"
+    app:umanoShadowHeight="5dp"
+    tools:context="com.example.jamie.autosearch_test1.fragment.HealthScoreFragment">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ph"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kassa Mohammad"
+                    android:id="@+id/textView9"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Age: 29"
+                    android:id="@+id/textView11"
+                    android:layout_x="141dp"
+                    android:layout_y="151dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Sex: Male"
+                    android:id="@+id/textView14"
+                    android:layout_x="139dp"
+                    android:layout_y="122dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:id="@+id/imageView4"
+                android:layout_gravity="center"
+                android:src="@drawable/score_bar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="72"
+                android:id="@+id/textView10"
+                android:layout_gravity="center"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="4dp"
+                android:textSize="50dp"
+                android:textColor="#ffffff" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_bottom_details" />
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

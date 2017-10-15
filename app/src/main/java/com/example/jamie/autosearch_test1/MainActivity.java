@@ -248,8 +248,8 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         AppController.getInstance().addToRequestQueue(strReq, tag_json_obj);
     }
 
-    public void editHistory(View view){
-        startActivity(new Intent(this,PatientHistory.class));
-    }
+//    public void editHistory(View view){
+//        startActivity(new Intent(this,PatientHistory.class));
+//    }
 
 }
