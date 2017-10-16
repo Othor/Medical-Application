@@ -1,3 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="/Users/pc/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_97d8a5e36812f2dd182bd689d7b856441fa3c8ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-1.9.0_9ccbdd748c23df0b7022c9cbfa99ea25e55c2bed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_8f5de7645b4911e87febc01b73834e40cefcbe51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_da710de2e0287446417bd98e1dff005eabfbecb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_d47153cc28d7b68f407051076542f39ccce99403/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_0df87cbdda7822c272d86d2a1fa1cc3beb5dbbd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.3.1_b8264a176940e71fd501a8181ca06da683408091/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.3.1_18f6a66b4f3bab54dace33cc9d2272cff3d9a73d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-6.1.0_4beb7352abab07ef311b846a1d3bb47501591b15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_ea07a460c0a7cc6c5fdad05933bf014757d0cd81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_b04e78c0de076114830ccfb9b4ffa4f257e6c4a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.3.1_94cd3ade1df4c33e9761dab245f0f2b30be61b04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="82c53e8eebd7d129a06c611d3d1d0b4aebc32000">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5899cb02f1052609a20f9dd78f450b88b409c0e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_b41ca79516b5ef7d7ca466b5e8047fc5014cdfb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_9e5fe6ecf787792e965809bc2464c8c2ef343d84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ab8a4903076897a8fe029433ba0c3c3f958712ce">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.sothree.slidinguppanel-library-3.3.1_a6c07a4a9bdcc7a703407b13d616a35d015866a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_4ca2119d933f70517a6f725e91f3af85fa0a0bbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_8a334b2db3d2c8171ea57e67e4a0fd078e0fef28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_50e81a698f3070310c44a186f52056df358c0185/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_edde726492d3fc88922a981a3fc531b8f9c65b17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2f3b001d59c33bbb744f1fc981be11445462f7ff">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d0d30e40636b2ad79b688d70a50deb0bea1ccea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/pc/AndroidStudioProjects/Medical-Application/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.3.1_dc95c60def502aff01ec199f45dce396576b82ce/classes.dex" />
+    </item>
+
+</items>

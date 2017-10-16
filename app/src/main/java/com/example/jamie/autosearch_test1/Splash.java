@@ -19,7 +19,7 @@ public class Splash extends AppCompatActivity {
         Animation transition = AnimationUtils.loadAnimation(this, R.anim.mytransition);
         iv.startAnimation(transition);
 
-        final Intent intent = new Intent(this, Login.class);
+        final Intent intent = new Intent(this, HomeActivity.class);
         Thread timer = new Thread(){
 
             @Override

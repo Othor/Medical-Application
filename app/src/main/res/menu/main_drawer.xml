@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_health_score"
+            android:icon="@mipmap/g"
+            android:title="My Health Score" />
+        <item
+            android:id="@+id/nav_insert_history"
+            android:icon="@mipmap/c"
+            android:title="Insert History" />
+        <item
+            android:id="@+id/nav_nutrition_tip"
+            android:icon="@mipmap/f"
+            android:title="Nutrition Tip" />
+        <item
+            android:id="@+id/nav_call_ambulance"
+            android:icon="@mipmap/ambulance"
+            android:title="Call Ambulance" />
+    </group>
+
+    <item android:title="help us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

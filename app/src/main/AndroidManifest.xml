@@ -11,16 +11,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/c"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:largeHeap="true"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Splash"/>
         <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".HomeActivity" />
@@ -28,9 +22,17 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".HealthScoreActivity" />
         <activity android:name=".ScodeDetailsActivity" />
-        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
